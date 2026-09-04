@@ -14,7 +14,7 @@
     }
 
     body {
-      background: #f5f7fb;
+      background: #f5faf6;
       color: #172033;
     }
 
@@ -26,7 +26,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 7%;
-      border-bottom: 1px solid #e5e7eb;
+      border-bottom: 1px solid #dcefe1;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -38,13 +38,13 @@
       gap: 10px;
       font-size: 23px;
       font-weight: bold;
-      color: #175cd3;
+      color: #15803d;
     }
 
     .logo-icon {
       width: 40px;
       height: 40px;
-      background: #175cd3;
+      background: #15803d;
       color: white;
       border-radius: 10px;
       display: flex;
@@ -67,12 +67,12 @@
     }
 
     .nav-links a:hover {
-      color: #175cd3;
+      color: #15803d;
     }
 
     .login-btn {
-      border: 1px solid #175cd3;
-      color: #175cd3;
+      border: 1px solid #15803d;
+      color: #15803d;
       padding: 9px 18px;
       border-radius: 8px;
       background: white;
@@ -80,9 +80,13 @@
       font-weight: 600;
     }
 
+    .login-btn:hover {
+      background: #f0fdf4;
+    }
+
     /* HERO */
     .hero {
-      background: linear-gradient(135deg, #174ea6, #2979ff);
+      background: linear-gradient(135deg, #166534, #22c55e);
       color: white;
       padding: 70px 7%;
     }
@@ -105,13 +109,13 @@
     .hero p {
       font-size: 18px;
       line-height: 1.7;
-      color: #e5efff;
+      color: #ecfdf5;
       margin-bottom: 30px;
     }
 
     .primary-btn {
       background: #ffffff;
-      color: #175cd3;
+      color: #15803d;
       border: none;
       padding: 14px 25px;
       border-radius: 9px;
@@ -121,12 +125,12 @@
     }
 
     .primary-btn:hover {
-      background: #eef4ff;
+      background: #f0fdf4;
     }
 
     .hero-card {
       background: rgba(255,255,255,0.12);
-      border: 1px solid rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.25);
       padding: 30px;
       border-radius: 18px;
       backdrop-filter: blur(10px);
@@ -166,6 +170,7 @@
     .section-title h2 {
       font-size: 30px;
       margin-bottom: 10px;
+      color: #14532d;
     }
 
     .section-title p {
@@ -183,7 +188,7 @@
       background: white;
       padding: 25px;
       border-radius: 14px;
-      border: 1px solid #e5e7eb;
+      border: 1px solid #dcefe1;
       text-align: center;
       cursor: pointer;
       transition: 0.2s;
@@ -191,16 +196,16 @@
 
     .category:hover {
       transform: translateY(-4px);
-      border-color: #175cd3;
-      box-shadow: 0 8px 25px rgba(23,92,211,0.1);
+      border-color: #22c55e;
+      box-shadow: 0 8px 25px rgba(21,128,61,0.12);
     }
 
     .category-icon {
       width: 55px;
       height: 55px;
       margin: 0 auto 15px;
-      background: #eef4ff;
-      color: #175cd3;
+      background: #dcfce7;
+      color: #15803d;
       border-radius: 14px;
       display: flex;
       align-items: center;
@@ -211,6 +216,7 @@
     .category h3 {
       font-size: 17px;
       margin-bottom: 7px;
+      color: #14532d;
     }
 
     .category p {
@@ -230,12 +236,13 @@
       background: white;
       padding: 30px;
       border-radius: 16px;
-      border: 1px solid #e5e7eb;
+      border: 1px solid #dcefe1;
     }
 
     .form-card h2,
     .map-card h2 {
       margin-bottom: 25px;
+      color: #14532d;
     }
 
     label {
@@ -243,6 +250,7 @@
       margin-bottom: 7px;
       font-weight: 600;
       font-size: 14px;
+      color: #374151;
     }
 
     input,
@@ -251,16 +259,18 @@
       width: 100%;
       padding: 12px 14px;
       margin-bottom: 18px;
-      border: 1px solid #d1d5db;
+      border: 1px solid #cbd5d0;
       border-radius: 8px;
       outline: none;
       font-size: 14px;
+      background: #ffffff;
     }
 
     input:focus,
     select:focus,
     textarea:focus {
-      border-color: #175cd3;
+      border-color: #22c55e;
+      box-shadow: 0 0 0 3px rgba(34,197,94,0.1);
     }
 
     textarea {
@@ -270,7 +280,7 @@
 
     .submit-btn {
       width: 100%;
-      background: #175cd3;
+      background: #15803d;
       color: white;
       border: none;
       padding: 14px;
@@ -280,7 +290,7 @@
     }
 
     .submit-btn:hover {
-      background: #1249aa;
+      background: #166534;
     }
 
     /* MAP */
@@ -288,9 +298,9 @@
       height: 390px;
       border-radius: 12px;
       background:
-        linear-gradient(30deg, transparent 45%, #d7dce5 46%, #d7dce5 48%, transparent 49%),
-        linear-gradient(120deg, transparent 45%, #d7dce5 46%, #d7dce5 48%, transparent 49%),
-        #e8edf3;
+        linear-gradient(30deg, transparent 45%, #c8dfcf 46%, #c8dfcf 48%, transparent 49%),
+        linear-gradient(120deg, transparent 45%, #c8dfcf 46%, #c8dfcf 48%, transparent 49%),
+        #e8f3eb;
       position: relative;
       overflow: hidden;
     }
@@ -323,7 +333,7 @@
       position: absolute;
       width: 18px;
       height: 18px;
-      background: #ef4444;
+      background: #dc2626;
       border: 4px solid white;
       border-radius: 50%;
       box-shadow: 0 2px 8px rgba(0,0,0,0.25);
@@ -353,7 +363,7 @@
     .report {
       background: white;
       padding: 20px;
-      border: 1px solid #e5e7eb;
+      border: 1px solid #dcefe1;
       border-radius: 12px;
       display: flex;
       align-items: center;
@@ -370,8 +380,8 @@
     .report-icon {
       width: 45px;
       height: 45px;
-      background: #fff7ed;
-      color: #ea580c;
+      background: #fef2f2;
+      color: #dc2626;
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -381,6 +391,7 @@
     .report h3 {
       font-size: 16px;
       margin-bottom: 5px;
+      color: #14532d;
     }
 
     .report p {
@@ -401,20 +412,20 @@
     }
 
     .progress {
-      background: #eff6ff;
-      color: #1d4ed8;
+      background: #ecfdf5;
+      color: #15803d;
     }
 
     .resolved {
-      background: #ecfdf5;
-      color: #047857;
+      background: #dcfce7;
+      color: #166534;
     }
 
     /* STATS */
     .stats {
       background: #ffffff;
-      border-top: 1px solid #e5e7eb;
-      border-bottom: 1px solid #e5e7eb;
+      border-top: 1px solid #dcefe1;
+      border-bottom: 1px solid #dcefe1;
     }
 
     .stat-grid {
@@ -425,7 +436,7 @@
 
     .stat {
       padding: 25px;
-      border-right: 1px solid #e5e7eb;
+      border-right: 1px solid #dcefe1;
     }
 
     .stat:last-child {
@@ -433,7 +444,7 @@
     }
 
     .stat h2 {
-      color: #175cd3;
+      color: #15803d;
       font-size: 30px;
       margin-bottom: 5px;
     }
@@ -445,7 +456,7 @@
 
     /* FOOTER */
     footer {
-      background: #111827;
+      background: #14532d;
       color: white;
       padding: 40px 7%;
       margin-top: 30px;
@@ -460,7 +471,7 @@
     }
 
     footer p {
-      color: #9ca3af;
+      color: #bbf7d0;
       margin-top: 10px;
       font-size: 14px;
     }
@@ -471,13 +482,18 @@
     }
 
     .footer-links a {
-      color: #d1d5db;
+      color: #dcfce7;
       text-decoration: none;
       font-size: 14px;
     }
 
+    .footer-links a:hover {
+      color: #ffffff;
+    }
+
     /* RESPONSIVE */
     @media (max-width: 800px) {
+
       .nav-links {
         display: none;
       }
@@ -500,7 +516,7 @@
       }
 
       .stat {
-        border-bottom: 1px solid #e5e7eb;
+        border-bottom: 1px solid #dcefe1;
       }
 
       .footer-content {
@@ -514,6 +530,7 @@
     }
 
     @media (max-width: 500px) {
+
       .categories {
         grid-template-columns: 1fr;
       }
@@ -533,6 +550,7 @@
 
   <!-- NAVBAR -->
   <nav class="navbar">
+
     <div class="logo">
       <div class="logo-icon">🏙️</div>
       NagarSetu
@@ -545,29 +563,43 @@
       <li><a href="#about">About</a></li>
     </ul>
 
-    <button class="login-btn">Login</button>
+    <button class="login-btn">
+      Login
+    </button>
+
   </nav>
+
 
   <!-- HERO -->
   <section class="hero" id="home">
+
     <div class="hero-content">
 
       <div>
-        <h1>Make Your City Better.</h1>
+
+        <h1>
+          Make Your City Better.
+        </h1>
 
         <p>
           Report civic problems in your neighborhood and help local
           authorities build a cleaner, safer and better-connected city.
         </p>
 
-        <button class="primary-btn"
-                onclick="document.getElementById('report').scrollIntoView({behavior:'smooth'})">
+        <button
+          class="primary-btn"
+          onclick="document.getElementById('report').scrollIntoView({behavior:'smooth'})">
           + Report an Issue
         </button>
+
       </div>
 
+
       <div class="hero-card">
-        <h3>City at a Glance</h3>
+
+        <h3>
+          City at a Glance
+        </h3>
 
         <div class="mini-stat">
           <span>Issues Reported</span>
@@ -588,13 +620,17 @@
           <span>Resolution Rate</span>
           <strong>78.9%</strong>
         </div>
+
       </div>
 
     </div>
+
   </section>
+
 
   <!-- STATS -->
   <section class="stats">
+
     <div class="container stat-grid">
 
       <div class="stat">
@@ -618,102 +654,259 @@
       </div>
 
     </div>
+
   </section>
+
 
   <!-- CATEGORIES -->
   <section>
+
     <div class="container">
 
       <div class="section-title">
-        <h2>What do you want to report?</h2>
-        <p>Select a category to quickly report a civic issue.</p>
+
+        <h2>
+          What do you want to report?
+        </h2>
+
+        <p>
+          Select a category to quickly report a civic issue.
+        </p>
+
       </div>
+
 
       <div class="categories">
 
-        <div class="category" onclick="selectCategory('Roads & Potholes')">
-          <div class="category-icon">🛣️</div>
-          <h3>Roads & Potholes</h3>
-          <p>Damaged roads and potholes</p>
+        <div class="category"
+             onclick="selectCategory('Roads & Potholes')">
+
+          <div class="category-icon">
+            🛣️
+          </div>
+
+          <h3>
+            Roads & Potholes
+          </h3>
+
+          <p>
+            Damaged roads and potholes
+          </p>
+
         </div>
 
-        <div class="category" onclick="selectCategory('Garbage')">
-          <div class="category-icon">🗑️</div>
-          <h3>Garbage</h3>
-          <p>Waste collection problems</p>
+
+        <div class="category"
+             onclick="selectCategory('Garbage')">
+
+          <div class="category-icon">
+            🗑️
+          </div>
+
+          <h3>
+            Garbage
+          </h3>
+
+          <p>
+            Waste collection problems
+          </p>
+
         </div>
 
-        <div class="category" onclick="selectCategory('Street Lights')">
-          <div class="category-icon">💡</div>
-          <h3>Street Lights</h3>
-          <p>Broken or inactive lights</p>
+
+        <div class="category"
+             onclick="selectCategory('Street Lights')">
+
+          <div class="category-icon">
+            💡
+          </div>
+
+          <h3>
+            Street Lights
+          </h3>
+
+          <p>
+            Broken or inactive lights
+          </p>
+
         </div>
 
-        <div class="category" onclick="selectCategory('Water Supply')">
-          <div class="category-icon">💧</div>
-          <h3>Water Supply</h3>
-          <p>Leaks and water problems</p>
+
+        <div class="category"
+             onclick="selectCategory('Water Supply')">
+
+          <div class="category-icon">
+            💧
+          </div>
+
+          <h3>
+            Water Supply
+          </h3>
+
+          <p>
+            Leaks and water problems
+          </p>
+
         </div>
 
-        <div class="category" onclick="selectCategory('Drainage')">
-          <div class="category-icon">🌊</div>
-          <h3>Drainage</h3>
-          <p>Blocked or overflowing drains</p>
+
+        <div class="category"
+             onclick="selectCategory('Drainage')">
+
+          <div class="category-icon">
+            🌊
+          </div>
+
+          <h3>
+            Drainage
+          </h3>
+
+          <p>
+            Blocked or overflowing drains
+          </p>
+
         </div>
 
-        <div class="category" onclick="selectCategory('Traffic')">
-          <div class="category-icon">🚦</div>
-          <h3>Traffic</h3>
-          <p>Traffic signals and issues</p>
+
+        <div class="category"
+             onclick="selectCategory('Traffic')">
+
+          <div class="category-icon">
+            🚦
+          </div>
+
+          <h3>
+            Traffic
+          </h3>
+
+          <p>
+            Traffic signals and issues
+          </p>
+
         </div>
 
-        <div class="category" onclick="selectCategory('Public Safety')">
-          <div class="category-icon">🛡️</div>
-          <h3>Public Safety</h3>
-          <p>Safety-related concerns</p>
+
+        <div class="category"
+             onclick="selectCategory('Public Safety')">
+
+          <div class="category-icon">
+            🛡️
+          </div>
+
+          <h3>
+            Public Safety
+          </h3>
+
+          <p>
+            Safety-related concerns
+          </p>
+
         </div>
 
-        <div class="category" onclick="selectCategory('Other')">
-          <div class="category-icon">📢</div>
-          <h3>Other</h3>
-          <p>Other civic problems</p>
+
+        <div class="category"
+             onclick="selectCategory('Other')">
+
+          <div class="category-icon">
+            📢
+          </div>
+
+          <h3>
+            Other
+          </h3>
+
+          <p>
+            Other civic problems
+          </p>
+
         </div>
 
       </div>
+
     </div>
+
   </section>
 
-  <!-- REPORT FORM -->
+
+  <!-- REPORT SECTION -->
   <section id="report">
+
     <div class="container">
 
       <div class="section-title">
-        <h2>Report a Civic Issue</h2>
-        <p>Tell us what is happening in your area.</p>
+
+        <h2>
+          Report a Civic Issue
+        </h2>
+
+        <p>
+          Tell us what is happening in your area.
+        </p>
+
       </div>
+
 
       <div class="report-wrapper">
 
+
+        <!-- FORM -->
         <div class="form-card">
 
-          <h2>Issue Details</h2>
+          <h2>
+            Issue Details
+          </h2>
 
           <form id="reportForm">
 
-            <label>Issue Category</label>
+            <label>
+              Issue Category
+            </label>
+
             <select id="category" required>
-              <option value="">Select category</option>
-              <option>Roads & Potholes</option>
-              <option>Garbage</option>
-              <option>Street Lights</option>
-              <option>Water Supply</option>
-              <option>Drainage</option>
-              <option>Traffic</option>
-              <option>Public Safety</option>
-              <option>Other</option>
+
+              <option value="">
+                Select category
+              </option>
+
+              <option>
+                Roads & Potholes
+              </option>
+
+              <option>
+                Garbage
+              </option>
+
+              <option>
+                Street Lights
+              </option>
+
+              <option>
+                Water Supply
+              </option>
+
+              <option>
+                Drainage
+              </option>
+
+              <option>
+                Traffic
+              </option>
+
+              <option>
+                Public Safety
+              </option>
+
+              <option>
+                Other
+              </option>
+
             </select>
 
-            <label>Location</label>
+
+            <label>
+              Location
+            </label>
+
             <input
               type="text"
               id="location"
@@ -721,17 +914,31 @@
               required
             >
 
-            <label>Description</label>
+
+            <label>
+              Description
+            </label>
+
             <textarea
               id="description"
               placeholder="Describe the issue..."
-              required
-            ></textarea>
+              required>
+            </textarea>
 
-            <label>Upload Photo</label>
-            <input type="file" accept="image/*">
 
-            <button class="submit-btn" type="submit">
+            <label>
+              Upload Photo
+            </label>
+
+            <input
+              type="file"
+              accept="image/*"
+            >
+
+
+            <button
+              class="submit-btn"
+              type="submit">
               Submit Report
             </button>
 
@@ -739,10 +946,13 @@
 
         </div>
 
+
         <!-- MAP -->
         <div class="map-card">
 
-          <h2>Issue Locations</h2>
+          <h2>
+            Issue Locations
+          </h2>
 
           <div class="map">
 
@@ -767,29 +977,53 @@
         </div>
 
       </div>
+
     </div>
+
   </section>
+
 
   <!-- RECENT REPORTS -->
   <section id="reports">
+
     <div class="container">
 
       <div class="section-title">
-        <h2>Recent Civic Reports</h2>
-        <p>See what's happening around the city.</p>
+
+        <h2>
+          Recent Civic Reports
+        </h2>
+
+        <p>
+          See what's happening around the city.
+        </p>
+
       </div>
 
+
       <div class="reports">
+
 
         <div class="report">
 
           <div class="report-info">
-            <div class="report-icon">🛣️</div>
+
+            <div class="report-icon">
+              🛣️
+            </div>
 
             <div>
-              <h3>Large pothole near main road</h3>
-              <p>Andheri West • Reported 2 hours ago</p>
+
+              <h3>
+                Large pothole near main road
+              </h3>
+
+              <p>
+                Andheri West • Reported 2 hours ago
+              </p>
+
             </div>
+
           </div>
 
           <span class="status progress">
@@ -798,15 +1032,27 @@
 
         </div>
 
+
         <div class="report">
 
           <div class="report-info">
-            <div class="report-icon">🗑️</div>
+
+            <div class="report-icon">
+              🗑️
+            </div>
 
             <div>
-              <h3>Garbage not collected</h3>
-              <p>Bandra East • Reported yesterday</p>
+
+              <h3>
+                Garbage not collected
+              </h3>
+
+              <p>
+                Bandra East • Reported yesterday
+              </p>
+
             </div>
+
           </div>
 
           <span class="status pending">
@@ -815,15 +1061,27 @@
 
         </div>
 
+
         <div class="report">
 
           <div class="report-info">
-            <div class="report-icon">💡</div>
+
+            <div class="report-icon">
+              💡
+            </div>
 
             <div>
-              <h3>Street light not working</h3>
-              <p>Dadar • Reported 2 days ago</p>
+
+              <h3>
+                Street light not working
+              </h3>
+
+              <p>
+                Dadar • Reported 2 days ago
+              </p>
+
             </div>
+
           </div>
 
           <span class="status resolved">
@@ -832,49 +1090,109 @@
 
         </div>
 
+
       </div>
+
     </div>
+
   </section>
+
 
   <!-- ABOUT -->
   <section id="about">
+
     <div class="container">
 
       <div class="section-title">
-        <h2>How NagarSetu Works</h2>
-        <p>A simple way to connect citizens with civic authorities.</p>
+
+        <h2>
+          How NagarSetu Works
+        </h2>
+
+        <p>
+          A simple way to connect citizens with civic authorities.
+        </p>
+
       </div>
+
 
       <div class="categories">
 
-        <div class="category">
-          <div class="category-icon">📸</div>
-          <h3>1. Report</h3>
-          <p>Submit an issue with its location and photo.</p>
-        </div>
 
         <div class="category">
-          <div class="category-icon">📍</div>
-          <h3>2. Track</h3>
-          <p>Track the status of your complaint.</p>
+
+          <div class="category-icon">
+            📸
+          </div>
+
+          <h3>
+            1. Report
+          </h3>
+
+          <p>
+            Submit an issue with its location and photo.
+          </p>
+
         </div>
 
-        <div class="category">
-          <div class="category-icon">👷</div>
-          <h3>3. Resolve</h3>
-          <p>Authorities work on the reported issue.</p>
-        </div>
 
         <div class="category">
-          <div class="category-icon">✅</div>
-          <h3>4. Improve</h3>
-          <p>Build a cleaner and better city together.</p>
+
+          <div class="category-icon">
+            📍
+          </div>
+
+          <h3>
+            2. Track
+          </h3>
+
+          <p>
+            Track the status of your complaint.
+          </p>
+
         </div>
+
+
+        <div class="category">
+
+          <div class="category-icon">
+            👷
+          </div>
+
+          <h3>
+            3. Resolve
+          </h3>
+
+          <p>
+            Authorities work on the reported issue.
+          </p>
+
+        </div>
+
+
+        <div class="category">
+
+          <div class="category-icon">
+            ✅
+          </div>
+
+          <h3>
+            4. Improve
+          </h3>
+
+          <p>
+            Build a cleaner and better city together.
+          </p>
+
+        </div>
+
 
       </div>
 
     </div>
+
   </section>
+
 
   <!-- FOOTER -->
   <footer>
@@ -882,56 +1200,89 @@
     <div class="footer-content">
 
       <div>
-        <h2>🏙️ NagarSetu</h2>
+
+        <h2>
+          🏙️ NagarSetu
+        </h2>
+
         <p>
           Connecting citizens with better civic services.
         </p>
+
       </div>
 
+
       <div class="footer-links">
-        <a href="#home">Home</a>
-        <a href="#report">Report Issue</a>
-        <a href="#reports">Reports</a>
-        <a href="#about">About</a>
+
+        <a href="#home">
+          Home
+        </a>
+
+        <a href="#report">
+          Report Issue
+        </a>
+
+        <a href="#reports">
+          Reports
+        </a>
+
+        <a href="#about">
+          About
+        </a>
+
       </div>
 
     </div>
 
   </footer>
 
+
   <script>
 
     // Select category from category cards
     function selectCategory(categoryName) {
+
       document.getElementById("category").value = categoryName;
 
       document.getElementById("report").scrollIntoView({
         behavior: "smooth"
       });
+
     }
 
+
     // Submit report
-    document.getElementById("reportForm").addEventListener("submit", function(event) {
+    document.getElementById("reportForm")
+      .addEventListener("submit", function(event) {
 
-      event.preventDefault();
+        event.preventDefault();
 
-      const category = document.getElementById("category").value;
-      const location = document.getElementById("location").value;
-      const description = document.getElementById("description").value;
+        const category =
+          document.getElementById("category").value;
 
-      if (!category || !location || !description) {
-        alert("Please fill in all required fields.");
-        return;
-      }
+        const location =
+          document.getElementById("location").value;
 
-      alert(
-        "Report submitted successfully!\\n\\n" +
-        "Category: " + category + "\\n" +
-        "Location: " + location
-      );
+        const description =
+          document.getElementById("description").value;
 
-      this.reset();
-    });
+        if (!category || !location || !description) {
+
+          alert("Please fill in all required fields.");
+
+          return;
+
+        }
+
+        alert(
+          "Report submitted successfully!\\n\\n" +
+          "Category: " + category + "\\n" +
+          "Location: " + location
+        );
+
+        this.reset();
+
+      });
 
   </script>
 
