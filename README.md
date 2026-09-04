@@ -4,3 +4,4 @@ It Is a software for reporting the civic issue in the society. It help show soci
 Features 
 1. Report Issue
 2. Solve issue
+3. Dashboard
